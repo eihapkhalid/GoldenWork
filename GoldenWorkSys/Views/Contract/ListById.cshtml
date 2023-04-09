@@ -1,0 +1,70 @@
+﻿@model List<VwContractMaintnceService>
+@*
+
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+    *@
+@{
+}
+<div class="col-lg-8 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+            @{
+                int x = 0;
+                @foreach (var contract in Model)
+                    {
+                        x++;
+                        if(x<=1){
+                                    <h5 class="card-title">@contract.SecondParty</h5>
+                                    <h4 class="card-title">@contract.ServiceType</h4>
+                                    <p class="card-description">@contract.SecondPartyLocation </p>
+                                }
+                   
+                    }
+                }
+                        <table id="order-listing" class="table">
+                            <thead>
+
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name of item</th>
+                                    <th>Quantity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                    @{
+                        int count = 0;
+                        foreach (var contract in Model)
+                        {
+                                count++;
+                                            <tr>
+
+                                                <td>@count</td>
+                                                <td>@contract.ItemName</td>
+                                                <td>@contract.Quantity</td>
+                                            </tr>
+                           
+                        } 
+                    }
+                            </tbody>
+                        </table>
+
+                    </div>
+
+             </div>
+              </div>
+
+
+@section Scripts
+    {
+
+
+            <!-- Plugin js for this page -->
+            <script src="~/vendors/datatables.net/jquery.dataTables.js"></script>
+            <script src="~/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+            <!-- End plugin js for this page -->
+
+            <!-- Custom js for this page -->
+            <script src="~/js/data-table.js"></script>
+            <!-- End custom js for this page -->
+
+    }

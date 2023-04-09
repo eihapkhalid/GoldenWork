@@ -1,0 +1,61 @@
+﻿@model List<VwContractMaintnceService>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="card-body">
+    <h4 class="card-title">Lidt Of Contract</h4>
+    <a asp-area="admin" asp-controller="contract" asp-action="Edit"  type="button" value="Edit" class="btn btn-gradient-primary btn-rounded btn-fw" >New</a>
+    <div class="row">
+        <div class="table-sorter-wrapper col-lg-12 table-responsive">
+            <table id="sortable-table-2" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name></th>
+                        <th>Contract Type</th>
+                        <th>Service</th>
+                        <th>Date</th>
+                        <th>Remaining Days</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+@{
+    int count = 0;
+    foreach (var contract in Model)
+        {
+            count++;
+                    <tr>
+                        <td>@count</td>
+                        <td>@contract.SecondParty</td>
+                        <td>@contract.ContractType</td>
+                        <td>@contract.ServiceType</td>
+                        <td>@contract.ContractDate.ToString("dd / MM / yyyy")</td>
+                        <td>@contract.ContractDate.Subtract(DateTime.Now.Date).TotalDays</td>
+                        <td>@contract.Price</td>
+                        <td>
+                            <a asp-area="admin" asp-controller="contract" asp-action="Edit"   asp-route-contractid="@contract.ContractId "  type="button" value="Edit" class="btn btn-gradient-info btn-rounded btn-fw" >    Edit</a>
+                            <a asp-area="admin" asp-controller="contract" asp-action="Delete" asp-route-contractid="@contract.ContractId "  type="button" value="Delete" class="btn btn-gradient-danger btn-rounded btn-fw" >Delete</a>
+                        </td>
+                    </tr>
+        }
+}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts
+    {
+            <!-- Plugin js for this page -->
+        <script src="~/Admin/vendors/datatables.net/jquery.dataTables.js"></script>
+        <script src="~/Admin/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+        <!-- End plugin js for this page -->
+        <!-- Custom js for this page -->
+        <script src="~/Admin/js/tablesorter.js"></script>
+        <!-- End custom js for this page -->
+    }
