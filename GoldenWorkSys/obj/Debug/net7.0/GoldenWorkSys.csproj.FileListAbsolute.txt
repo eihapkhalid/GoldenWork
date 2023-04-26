@@ -172,3 +172,10 @@ D:\USB Drive\ايهاب\c#\web\samples\HOT\important\GoldenWorkSys-1\GoldenWorkS
 D:\USB Drive\ايهاب\c#\web\samples\HOT\important\GoldenWorkSys-1\GoldenWorkSys\obj\Debug\net7.0\GoldenWorkSys.pdb
 D:\USB Drive\ايهاب\c#\web\samples\HOT\important\GoldenWorkSys-1\GoldenWorkSys\obj\Debug\net7.0\GoldenWorkSys.genruntimeconfig.cache
 D:\USB Drive\ايهاب\c#\web\samples\HOT\important\GoldenWorkSys-1\GoldenWorkSys\obj\Debug\net7.0\ref\GoldenWorkSys.dll
+D:\USB Drive\ايهاب\c#\web\samples\HOT\important\GoldenWorkSys-1\GoldenWorkSys\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\USB Drive\ايهاب\c#\web\samples\HOT\important\GoldenWorkSys-1\GoldenWorkSys\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\USB Drive\ايهاب\c#\web\samples\HOT\important\GoldenWorkSys-1\GoldenWorkSys\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\USB Drive\ايهاب\c#\web\samples\HOT\important\GoldenWorkSys-1\GoldenWorkSys\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\USB Drive\ايهاب\c#\web\samples\HOT\important\GoldenWorkSys-1\GoldenWorkSys\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\USB Drive\ايهاب\c#\web\samples\HOT\important\GoldenWorkSys-1\GoldenWorkSys\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\USB Drive\ايهاب\c#\web\samples\HOT\important\GoldenWorkSys-1\GoldenWorkSys\obj\Debug\net7.0\GoldenWorkSys.MvcApplicationPartsAssemblyInfo.cs

@@ -44,6 +44,9 @@ public partial class FireSystemContractsDbContext : IdentityDbContext<IdentityUs
 
 	protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        //identity AspNetCore Step 4 : add OnModelCreating
+
+        base.OnModelCreating(modelBuilder);
         modelBuilder.Entity<TbContract>(entity =>
         {
             entity.HasKey(e => e.ContractId);
@@ -138,4 +141,5 @@ public partial class FireSystemContractsDbContext : IdentityDbContext<IdentityUs
     }
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+    
 }
