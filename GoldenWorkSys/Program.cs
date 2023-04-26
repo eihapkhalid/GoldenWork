@@ -17,7 +17,7 @@ namespace GoldenWorkSys
 			builder.Services.AddDbContext<FireSystemContractsDbContext>(options =>options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             //identity AspNetCore Step 3 : Add Identity
-            builder.Services.AddIdentity<IdentityUser,IdentityRole>(Options=>
+            builder.Services.AddIdentity<ApplicationUser,IdentityRole>(Options=>
 			{
 				Options.Password.RequiredLength = 8;
 				Options.Password.RequireNonAlphanumeric= true;
