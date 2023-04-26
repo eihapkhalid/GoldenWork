@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Bl;
 
-public partial class FireSystemContractsDbContext : IdentityDbContext<IdentityUser>
+public partial class FireSystemContractsDbContext : IdentityDbContext<ApplicationUser>
 {
     public FireSystemContractsDbContext()
     {

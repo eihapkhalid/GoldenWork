@@ -45,7 +45,7 @@ namespace GoldenWorkSys
 
 			app.UseRouting();
 
-            //identity AspNetCore Step 5 : add Authorization
+            //identity AspNetCore Step 5 : add Authorization and do migrations in database
             app.UseAuthentication();
             app.UseAuthorization();
 
