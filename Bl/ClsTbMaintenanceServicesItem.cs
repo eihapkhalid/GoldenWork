@@ -50,15 +50,15 @@ namespace Bl
             }
         }
 
-        public bool save(TbMaintenanceServicesItem table)
+        public bool save(TbMaintenanceServicesItem table,VwContractMaintnceService ttable)
         {
             try
             {
 
                 if (table.MaintenanceId == 0)
                 {
-                 //  ttable.FirstParty = "مؤسسة العمل الذهبي للمقاولات";
-                   // ttable.CreatedBy = "ايهاب خالد ";
+                   ttable.FirstParty = "مؤسسة العمل الذهبي للمقاولات";
+                    ttable.CreatedBy = "ايهاب خالد ";
                  // table.CreatedDate = DateTime.Now;
 
                 }
