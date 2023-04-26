@@ -117,7 +117,11 @@
           "dependencies": {
             "Microsoft.AspNetCore.Components.Web": {
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
             }
           },
           "imports": [
