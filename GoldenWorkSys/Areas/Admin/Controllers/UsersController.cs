@@ -9,9 +9,11 @@ namespace GoldenWorkSys.Areas.Admin.Controllers
     public class UsersController : Controller
     {
         UserManager<ApplicationUser> _userManager;
-        public UsersController(UserManager<ApplicationUser> userManager)
+        SignInManager<ApplicationUser> _signInManager;
+        public UsersController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
         {
             _userManager = userManager;
+            _signInManager = signInManager;
         }
 
         public IActionResult Login()
@@ -36,12 +38,20 @@ namespace GoldenWorkSys.Areas.Admin.Controllers
                 Email= model.Email,
                 UserName = model.Email 
             };
-            var result = await _userManager.CreateAsync(user, model.Password);
+            var RegisterResult = await _userManager.CreateAsync(user, model.Password);
             try
             {
-                if (result.Succeeded)
+                if (RegisterResult.Succeeded)
                 {
+                  var LoginResult= await  _signInManager.PasswordSignInAsync(user, model.Password,true,true);
+                    if (LoginResult.Succeeded)
+                    {
+                        Redirect("/contract/list");//any page
+                    }
+                    else
+                    {
 
+                    }
                 }
                 else
                 {
