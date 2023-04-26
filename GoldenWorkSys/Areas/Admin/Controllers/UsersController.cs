@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-
+using GoldenWorkSys.Models;
 namespace GoldenWorkSys.Areas.Admin.Controllers
 {
     [Area("Admin")]
@@ -12,7 +12,13 @@ namespace GoldenWorkSys.Areas.Admin.Controllers
         }
         public IActionResult Register()
         {
-            return View();
+            return View(new UsersModel());
+        }
+
+        [HttpPost]
+        public IActionResult Register(UsersModel model)
+        {
+            return View(new UsersModel());
         }
     }
 }
