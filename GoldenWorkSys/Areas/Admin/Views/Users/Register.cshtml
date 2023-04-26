@@ -8,9 +8,11 @@
                 <form class="pt-3" method="post"
                 asp-controller="Users" asp-action="Register">
                   <div class="form-group">
+
                       <div asp-validation-summary="All">
 
                       </div>
+
                     <input type="text" class="form-control form-control-lg"  placeholder="First Name"
                         asp-for="@Model.FirstName" maxlength="100">
                     <span  asp-validation-for="@Model.FirstName" class="text-danger"></span>
