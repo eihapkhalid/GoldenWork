@@ -1,5 +1,6 @@
 using Bl;
 using Domains;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
@@ -15,7 +16,16 @@ namespace GoldenWorkSys
 			builder.Services.AddControllersWithViews();
 			builder.Services.AddDbContext<FireSystemContractsDbContext>(options =>options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-			builder.Services.AddScoped<IBusinessLayer<TbContract>, ClsContract>();
+            //identity AspNetCore Step 3 : Add Identity
+            builder.Services.AddIdentity<IdentityUser,IdentityRole>(Options=>
+			{
+				Options.Password.RequiredLength = 8;
+				Options.Password.RequireNonAlphanumeric= true;
+				Options.Password.RequireUppercase= true;
+				Options.User.RequireUniqueEmail = true;
+			}).AddEntityFrameworkStores<FireSystemContractsDbContext>();
+
+            builder.Services.AddScoped<IBusinessLayer<TbContract>, ClsContract>();
             builder.Services.AddScoped<IBusinessLayer<VwContractMaintnceService>, ClsVwContractMaintnceService>();
             builder.Services.AddScoped<IBusinessLayer<TbMaintenanceServicesItem>, ClsTbMaintenanceServicesItem>(); 
 
@@ -35,7 +45,9 @@ namespace GoldenWorkSys
 
 			app.UseRouting();
 
-			app.UseAuthorization();
+            //identity AspNetCore Step 4 : add Authorization
+            app.UseAuthentication();
+            app.UseAuthorization();
 
 			app.UseEndpoints(endpoints =>
 			{

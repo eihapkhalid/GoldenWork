@@ -3,9 +3,14 @@ using System.Collections.Generic;
 using Domains;
 using Microsoft.EntityFrameworkCore;
 
+//identity AspNetCore Step 1 :install NuGet : Microsoft.AspNetCore.Identity.EntityFrameworkCore
+//identity AspNetCore Step  2 : and replace dbContext with = IdentityDbContext<IdentityUser>
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+
 namespace Bl;
 
-public partial class FireSystemContractsDbContext : DbContext
+public partial class FireSystemContractsDbContext : IdentityDbContext<IdentityUser>
 {
     public FireSystemContractsDbContext()
     {
