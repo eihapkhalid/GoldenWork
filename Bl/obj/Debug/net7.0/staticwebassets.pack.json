@@ -1,15 +1,15 @@
 {
   "Files": [
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\GoldenWorkSys\\Bl\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Bl.bundle.scp.css",
+      "Id": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\important\\GoldenWorkSys-1\\Bl\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Bl.bundle.scp.css",
       "PackagePath": "staticwebassets\\Bl.bundle.scp.css"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\GoldenWorkSys\\Bl\\wwwroot\\background.png",
+      "Id": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\important\\GoldenWorkSys-1\\Bl\\wwwroot\\background.png",
       "PackagePath": "staticwebassets\\background.png"
     },
     {
-      "Id": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\GoldenWorkSys\\Bl\\wwwroot\\exampleJsInterop.js",
+      "Id": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\important\\GoldenWorkSys-1\\Bl\\wwwroot\\exampleJsInterop.js",
       "PackagePath": "staticwebassets\\exampleJsInterop.js"
     },
     {

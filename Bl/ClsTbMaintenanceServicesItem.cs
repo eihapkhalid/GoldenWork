@@ -75,6 +75,11 @@ namespace Bl
             }
         }
 
+        public bool save(TbMaintenanceServicesItem table)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<TbMaintenanceServicesItem> VwGetALL()
         {
             throw new NotImplementedException();

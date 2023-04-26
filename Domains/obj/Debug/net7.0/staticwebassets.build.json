@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jTD9vlunqJEPAPUyDG2sEvPDOm6RYUtllwudaoB3Rpk=",
+  "Hash": "EsB5Gw67wx8O48CI/cnItnGU6/tjAwekoYOVp4SfTZw=",
   "Source": "Domains",
   "BasePath": "_content/Domains",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Domains\\wwwroot",
       "Source": "Domains",
-      "ContentRoot": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\GoldenWorkSys\\Domains\\wwwroot\\",
+      "ContentRoot": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\important\\GoldenWorkSys-1\\Domains\\wwwroot\\",
       "BasePath": "_content/Domains",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\GoldenWorkSys\\Domains\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Domains.styles.css",
+      "Identity": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\important\\GoldenWorkSys-1\\Domains\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Domains.styles.css",
       "SourceId": "Domains",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\GoldenWorkSys\\Domains\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\important\\GoldenWorkSys-1\\Domains\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Domains",
       "RelativePath": "Domains.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\GoldenWorkSys\\Domains\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Domains.styles.css"
+      "OriginalItemSpec": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\important\\GoldenWorkSys-1\\Domains\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Domains.styles.css"
     },
     {
-      "Identity": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\GoldenWorkSys\\Domains\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Domains.bundle.scp.css",
+      "Identity": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\important\\GoldenWorkSys-1\\Domains\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Domains.bundle.scp.css",
       "SourceId": "Domains",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\GoldenWorkSys\\Domains\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\important\\GoldenWorkSys-1\\Domains\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Domains",
       "RelativePath": "Domains.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\GoldenWorkSys\\Domains\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Domains.bundle.scp.css"
+      "OriginalItemSpec": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\important\\GoldenWorkSys-1\\Domains\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Domains.bundle.scp.css"
     },
     {
-      "Identity": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\GoldenWorkSys\\Domains\\wwwroot\\background.png",
+      "Identity": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\important\\GoldenWorkSys-1\\Domains\\wwwroot\\background.png",
       "SourceId": "Domains",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\GoldenWorkSys\\Domains\\wwwroot\\",
+      "ContentRoot": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\important\\GoldenWorkSys-1\\Domains\\wwwroot\\",
       "BasePath": "_content/Domains",
       "RelativePath": "background.png",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\GoldenWorkSys\\Domains\\wwwroot\\exampleJsInterop.js",
+      "Identity": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\important\\GoldenWorkSys-1\\Domains\\wwwroot\\exampleJsInterop.js",
       "SourceId": "Domains",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\GoldenWorkSys\\Domains\\wwwroot\\",
+      "ContentRoot": "D:\\USB Drive\\ايهاب\\c#\\web\\samples\\HOT\\important\\GoldenWorkSys-1\\Domains\\wwwroot\\",
       "BasePath": "_content/Domains",
       "RelativePath": "exampleJsInterop.js",
       "AssetKind": "All",
